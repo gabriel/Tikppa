@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005250411C57487A00BB66C2 /* Tikppa.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250401C57487A00BB66C2 /* Tikppa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0052509A1C5748CE00BB66C2 /* KBActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250481C5748CE00BB66C2 /* KBActivity.h */; };
+		0052509B1C5748CE00BB66C2 /* KBActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250491C5748CE00BB66C2 /* KBActivity.m */; };
+		0052509C1C5748CE00BB66C2 /* KBActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052504A1C5748CE00BB66C2 /* KBActivityIndicatorView.h */; };
+		0052509D1C5748CE00BB66C2 /* KBActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052504B1C5748CE00BB66C2 /* KBActivityIndicatorView.m */; };
+		0052509E1C5748CE00BB66C2 /* KBAlert.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052504C1C5748CE00BB66C2 /* KBAlert.h */; };
+		0052509F1C5748CE00BB66C2 /* KBAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052504D1C5748CE00BB66C2 /* KBAlert.m */; };
+		005250A01C5748CE00BB66C2 /* KBAppearance.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052504E1C5748CE00BB66C2 /* KBAppearance.h */; };
+		005250A11C5748CE00BB66C2 /* KBAppearance.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052504F1C5748CE00BB66C2 /* KBAppearance.m */; };
+		005250A21C5748CE00BB66C2 /* KBBorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250501C5748CE00BB66C2 /* KBBorder.h */; };
+		005250A31C5748CE00BB66C2 /* KBBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250511C5748CE00BB66C2 /* KBBorder.m */; };
+		005250A41C5748CE00BB66C2 /* KBBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250521C5748CE00BB66C2 /* KBBox.h */; };
+		005250A51C5748CE00BB66C2 /* KBBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250531C5748CE00BB66C2 /* KBBox.m */; };
+		005250A61C5748CE00BB66C2 /* KBButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250541C5748CE00BB66C2 /* KBButton.h */; };
+		005250A71C5748CE00BB66C2 /* KBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250551C5748CE00BB66C2 /* KBButton.m */; };
+		005250A81C5748CE00BB66C2 /* KBButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250561C5748CE00BB66C2 /* KBButtonView.h */; };
+		005250A91C5748CE00BB66C2 /* KBButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250571C5748CE00BB66C2 /* KBButtonView.m */; };
+		005250AA1C5748CE00BB66C2 /* KBCellDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250581C5748CE00BB66C2 /* KBCellDataSource.h */; };
+		005250AB1C5748CE00BB66C2 /* KBCellDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250591C5748CE00BB66C2 /* KBCellDataSource.m */; };
+		005250AC1C5748CE00BB66C2 /* KBColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052505A1C5748CE00BB66C2 /* KBColor.h */; };
+		005250AD1C5748CE00BB66C2 /* KBColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052505B1C5748CE00BB66C2 /* KBColor.m */; };
+		005250AE1C5748CE00BB66C2 /* KBFontIcon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052505C1C5748CE00BB66C2 /* KBFontIcon.h */; };
+		005250AF1C5748CE00BB66C2 /* KBFontIcon.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052505D1C5748CE00BB66C2 /* KBFontIcon.m */; };
+		005250B01C5748CE00BB66C2 /* KBHoverView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052505E1C5748CE00BB66C2 /* KBHoverView.h */; };
+		005250B11C5748CE00BB66C2 /* KBHoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052505F1C5748CE00BB66C2 /* KBHoverView.m */; };
+		005250B21C5748CE00BB66C2 /* KBIcons.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250601C5748CE00BB66C2 /* KBIcons.h */; };
+		005250B31C5748CE00BB66C2 /* KBIcons.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250611C5748CE00BB66C2 /* KBIcons.m */; };
+		005250B41C5748CE00BB66C2 /* KBImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250621C5748CE00BB66C2 /* KBImage.h */; };
+		005250B51C5748CE00BB66C2 /* KBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250631C5748CE00BB66C2 /* KBImage.m */; };
+		005250B61C5748CE00BB66C2 /* KBImageLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250641C5748CE00BB66C2 /* KBImageLoader.h */; };
+		005250B71C5748CE00BB66C2 /* KBImageLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250651C5748CE00BB66C2 /* KBImageLoader.m */; };
+		005250B81C5748CE00BB66C2 /* KBImageTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250661C5748CE00BB66C2 /* KBImageTextView.h */; };
+		005250B91C5748CE00BB66C2 /* KBImageTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250671C5748CE00BB66C2 /* KBImageTextView.m */; };
+		005250BA1C5748CE00BB66C2 /* KBImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250681C5748CE00BB66C2 /* KBImageView.h */; };
+		005250BB1C5748CE00BB66C2 /* KBImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250691C5748CE00BB66C2 /* KBImageView.m */; };
+		005250BC1C5748CE00BB66C2 /* KBLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052506A1C5748CE00BB66C2 /* KBLabel.h */; };
+		005250BD1C5748CE00BB66C2 /* KBLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052506B1C5748CE00BB66C2 /* KBLabel.m */; };
+		005250BE1C5748CE00BB66C2 /* KBLabelRow.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052506C1C5748CE00BB66C2 /* KBLabelRow.h */; };
+		005250BF1C5748CE00BB66C2 /* KBLabelRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052506D1C5748CE00BB66C2 /* KBLabelRow.m */; };
+		005250C01C5748CE00BB66C2 /* KBListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052506E1C5748CE00BB66C2 /* KBListView.h */; };
+		005250C11C5748CE00BB66C2 /* KBListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052506F1C5748CE00BB66C2 /* KBListView.m */; };
+		005250C21C5748CE00BB66C2 /* KBMenuBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250701C5748CE00BB66C2 /* KBMenuBar.h */; };
+		005250C31C5748CE00BB66C2 /* KBMenuBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250711C5748CE00BB66C2 /* KBMenuBar.m */; };
+		005250C41C5748CE00BB66C2 /* KBNavigationTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250721C5748CE00BB66C2 /* KBNavigationTitleView.h */; };
+		005250C51C5748CE00BB66C2 /* KBNavigationTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250731C5748CE00BB66C2 /* KBNavigationTitleView.m */; };
+		005250C61C5748CE00BB66C2 /* KBNavigationView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250741C5748CE00BB66C2 /* KBNavigationView.h */; };
+		005250C71C5748CE00BB66C2 /* KBNavigationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250751C5748CE00BB66C2 /* KBNavigationView.m */; };
+		005250C81C5748CE00BB66C2 /* KBPopover.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250761C5748CE00BB66C2 /* KBPopover.h */; };
+		005250C91C5748CE00BB66C2 /* KBPopover.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250771C5748CE00BB66C2 /* KBPopover.m */; };
+		005250CA1C5748CE00BB66C2 /* KBProgressOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250781C5748CE00BB66C2 /* KBProgressOverlayView.h */; };
+		005250CB1C5748CE00BB66C2 /* KBProgressOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250791C5748CE00BB66C2 /* KBProgressOverlayView.m */; };
+		005250CC1C5748CE00BB66C2 /* KBScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052507A1C5748CE00BB66C2 /* KBScrollView.h */; };
+		005250CD1C5748CE00BB66C2 /* KBScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052507B1C5748CE00BB66C2 /* KBScrollView.m */; };
+		005250CE1C5748CE00BB66C2 /* KBSplitView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052507C1C5748CE00BB66C2 /* KBSplitView.h */; };
+		005250CF1C5748CE00BB66C2 /* KBSplitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052507D1C5748CE00BB66C2 /* KBSplitView.m */; };
+		005250D01C5748CE00BB66C2 /* KBTableRowView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052507E1C5748CE00BB66C2 /* KBTableRowView.h */; };
+		005250D11C5748CE00BB66C2 /* KBTableRowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052507F1C5748CE00BB66C2 /* KBTableRowView.m */; };
+		005250D21C5748CE00BB66C2 /* KBTableSelection.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250801C5748CE00BB66C2 /* KBTableSelection.h */; };
+		005250D31C5748CE00BB66C2 /* KBTableSelection.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250811C5748CE00BB66C2 /* KBTableSelection.m */; };
+		005250D41C5748CE00BB66C2 /* KBTableView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250821C5748CE00BB66C2 /* KBTableView.h */; };
+		005250D51C5748CE00BB66C2 /* KBTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250831C5748CE00BB66C2 /* KBTableView.m */; };
+		005250D61C5748CE00BB66C2 /* KBText.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250841C5748CE00BB66C2 /* KBText.h */; };
+		005250D71C5748CE00BB66C2 /* KBText.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250851C5748CE00BB66C2 /* KBText.m */; };
+		005250D81C5748CE00BB66C2 /* KBTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250861C5748CE00BB66C2 /* KBTextField.h */; };
+		005250D91C5748CE00BB66C2 /* KBTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250871C5748CE00BB66C2 /* KBTextField.m */; };
+		005250DA1C5748CE00BB66C2 /* KBTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250881C5748CE00BB66C2 /* KBTextView.h */; };
+		005250DB1C5748CE00BB66C2 /* KBTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250891C5748CE00BB66C2 /* KBTextView.m */; };
+		005250DC1C5748CE00BB66C2 /* KBTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052508A1C5748CE00BB66C2 /* KBTitleView.h */; };
+		005250DD1C5748CE00BB66C2 /* KBTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052508B1C5748CE00BB66C2 /* KBTitleView.m */; };
+		005250DE1C5748CE00BB66C2 /* KBViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052508C1C5748CE00BB66C2 /* KBViews.h */; };
+		005250DF1C5748CE00BB66C2 /* KBViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052508D1C5748CE00BB66C2 /* KBViews.m */; };
+		005250E01C5748CE00BB66C2 /* KBWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0052508E1C5748CE00BB66C2 /* KBWebView.h */; };
+		005250E11C5748CE00BB66C2 /* KBWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0052508F1C5748CE00BB66C2 /* KBWebView.m */; };
+		005250E21C5748CE00BB66C2 /* KBWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250901C5748CE00BB66C2 /* KBWindow.h */; };
+		005250E31C5748CE00BB66C2 /* KBWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250911C5748CE00BB66C2 /* KBWindow.m */; };
+		005250E61C5748CE00BB66C2 /* NSSplitView+KBAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250941C5748CE00BB66C2 /* NSSplitView+KBAdditions.h */; };
+		005250E71C5748CE00BB66C2 /* NSSplitView+KBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250951C5748CE00BB66C2 /* NSSplitView+KBAdditions.m */; };
+		005250E81C5748CE00BB66C2 /* NSView+KBView.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250961C5748CE00BB66C2 /* NSView+KBView.h */; };
+		005250E91C5748CE00BB66C2 /* NSView+KBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250971C5748CE00BB66C2 /* NSView+KBView.m */; };
+		005250EA1C5748CE00BB66C2 /* TikppaDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250981C5748CE00BB66C2 /* TikppaDefines.h */; };
+		005250EB1C5748CE00BB66C2 /* TikppaDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250991C5748CE00BB66C2 /* TikppaDefines.m */; };
+		909EA89548DDF9E9BE0222B1 /* libPods-Tikppa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 526CAF64506CEF5AA8813B2E /* libPods-Tikppa.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0052503D1C57487A00BB66C2 /* Tikppa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Tikppa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		005250401C57487A00BB66C2 /* Tikppa.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tikppa.h; sourceTree = "<group>"; };
+		005250421C57487A00BB66C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005250481C5748CE00BB66C2 /* KBActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivity.h; sourceTree = "<group>"; };
+		005250491C5748CE00BB66C2 /* KBActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivity.m; sourceTree = "<group>"; };
+		0052504A1C5748CE00BB66C2 /* KBActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBActivityIndicatorView.h; sourceTree = "<group>"; };
+		0052504B1C5748CE00BB66C2 /* KBActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBActivityIndicatorView.m; sourceTree = "<group>"; };
+		0052504C1C5748CE00BB66C2 /* KBAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAlert.h; sourceTree = "<group>"; };
+		0052504D1C5748CE00BB66C2 /* KBAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAlert.m; sourceTree = "<group>"; };
+		0052504E1C5748CE00BB66C2 /* KBAppearance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBAppearance.h; sourceTree = "<group>"; };
+		0052504F1C5748CE00BB66C2 /* KBAppearance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBAppearance.m; sourceTree = "<group>"; };
+		005250501C5748CE00BB66C2 /* KBBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBorder.h; sourceTree = "<group>"; };
+		005250511C5748CE00BB66C2 /* KBBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBorder.m; sourceTree = "<group>"; };
+		005250521C5748CE00BB66C2 /* KBBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBBox.h; sourceTree = "<group>"; };
+		005250531C5748CE00BB66C2 /* KBBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBBox.m; sourceTree = "<group>"; };
+		005250541C5748CE00BB66C2 /* KBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBButton.h; sourceTree = "<group>"; };
+		005250551C5748CE00BB66C2 /* KBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBButton.m; sourceTree = "<group>"; };
+		005250561C5748CE00BB66C2 /* KBButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBButtonView.h; sourceTree = "<group>"; };
+		005250571C5748CE00BB66C2 /* KBButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBButtonView.m; sourceTree = "<group>"; };
+		005250581C5748CE00BB66C2 /* KBCellDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBCellDataSource.h; sourceTree = "<group>"; };
+		005250591C5748CE00BB66C2 /* KBCellDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBCellDataSource.m; sourceTree = "<group>"; };
+		0052505A1C5748CE00BB66C2 /* KBColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBColor.h; sourceTree = "<group>"; };
+		0052505B1C5748CE00BB66C2 /* KBColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBColor.m; sourceTree = "<group>"; };
+		0052505C1C5748CE00BB66C2 /* KBFontIcon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBFontIcon.h; sourceTree = "<group>"; };
+		0052505D1C5748CE00BB66C2 /* KBFontIcon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBFontIcon.m; sourceTree = "<group>"; };
+		0052505E1C5748CE00BB66C2 /* KBHoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBHoverView.h; sourceTree = "<group>"; };
+		0052505F1C5748CE00BB66C2 /* KBHoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBHoverView.m; sourceTree = "<group>"; };
+		005250601C5748CE00BB66C2 /* KBIcons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBIcons.h; sourceTree = "<group>"; };
+		005250611C5748CE00BB66C2 /* KBIcons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBIcons.m; sourceTree = "<group>"; };
+		005250621C5748CE00BB66C2 /* KBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBImage.h; sourceTree = "<group>"; };
+		005250631C5748CE00BB66C2 /* KBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBImage.m; sourceTree = "<group>"; };
+		005250641C5748CE00BB66C2 /* KBImageLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBImageLoader.h; sourceTree = "<group>"; };
+		005250651C5748CE00BB66C2 /* KBImageLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBImageLoader.m; sourceTree = "<group>"; };
+		005250661C5748CE00BB66C2 /* KBImageTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBImageTextView.h; sourceTree = "<group>"; };
+		005250671C5748CE00BB66C2 /* KBImageTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBImageTextView.m; sourceTree = "<group>"; };
+		005250681C5748CE00BB66C2 /* KBImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBImageView.h; sourceTree = "<group>"; };
+		005250691C5748CE00BB66C2 /* KBImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBImageView.m; sourceTree = "<group>"; };
+		0052506A1C5748CE00BB66C2 /* KBLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBLabel.h; sourceTree = "<group>"; };
+		0052506B1C5748CE00BB66C2 /* KBLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBLabel.m; sourceTree = "<group>"; };
+		0052506C1C5748CE00BB66C2 /* KBLabelRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBLabelRow.h; sourceTree = "<group>"; };
+		0052506D1C5748CE00BB66C2 /* KBLabelRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBLabelRow.m; sourceTree = "<group>"; };
+		0052506E1C5748CE00BB66C2 /* KBListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBListView.h; sourceTree = "<group>"; };
+		0052506F1C5748CE00BB66C2 /* KBListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBListView.m; sourceTree = "<group>"; };
+		005250701C5748CE00BB66C2 /* KBMenuBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBMenuBar.h; sourceTree = "<group>"; };
+		005250711C5748CE00BB66C2 /* KBMenuBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBMenuBar.m; sourceTree = "<group>"; };
+		005250721C5748CE00BB66C2 /* KBNavigationTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNavigationTitleView.h; sourceTree = "<group>"; };
+		005250731C5748CE00BB66C2 /* KBNavigationTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNavigationTitleView.m; sourceTree = "<group>"; };
+		005250741C5748CE00BB66C2 /* KBNavigationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBNavigationView.h; sourceTree = "<group>"; };
+		005250751C5748CE00BB66C2 /* KBNavigationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBNavigationView.m; sourceTree = "<group>"; };
+		005250761C5748CE00BB66C2 /* KBPopover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBPopover.h; sourceTree = "<group>"; };
+		005250771C5748CE00BB66C2 /* KBPopover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBPopover.m; sourceTree = "<group>"; };
+		005250781C5748CE00BB66C2 /* KBProgressOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBProgressOverlayView.h; sourceTree = "<group>"; };
+		005250791C5748CE00BB66C2 /* KBProgressOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBProgressOverlayView.m; sourceTree = "<group>"; };
+		0052507A1C5748CE00BB66C2 /* KBScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBScrollView.h; sourceTree = "<group>"; };
+		0052507B1C5748CE00BB66C2 /* KBScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBScrollView.m; sourceTree = "<group>"; };
+		0052507C1C5748CE00BB66C2 /* KBSplitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBSplitView.h; sourceTree = "<group>"; };
+		0052507D1C5748CE00BB66C2 /* KBSplitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBSplitView.m; sourceTree = "<group>"; };
+		0052507E1C5748CE00BB66C2 /* KBTableRowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTableRowView.h; sourceTree = "<group>"; };
+		0052507F1C5748CE00BB66C2 /* KBTableRowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTableRowView.m; sourceTree = "<group>"; };
+		005250801C5748CE00BB66C2 /* KBTableSelection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTableSelection.h; sourceTree = "<group>"; };
+		005250811C5748CE00BB66C2 /* KBTableSelection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTableSelection.m; sourceTree = "<group>"; };
+		005250821C5748CE00BB66C2 /* KBTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTableView.h; sourceTree = "<group>"; };
+		005250831C5748CE00BB66C2 /* KBTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTableView.m; sourceTree = "<group>"; };
+		005250841C5748CE00BB66C2 /* KBText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBText.h; sourceTree = "<group>"; };
+		005250851C5748CE00BB66C2 /* KBText.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBText.m; sourceTree = "<group>"; };
+		005250861C5748CE00BB66C2 /* KBTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTextField.h; sourceTree = "<group>"; };
+		005250871C5748CE00BB66C2 /* KBTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTextField.m; sourceTree = "<group>"; };
+		005250881C5748CE00BB66C2 /* KBTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTextView.h; sourceTree = "<group>"; };
+		005250891C5748CE00BB66C2 /* KBTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTextView.m; sourceTree = "<group>"; };
+		0052508A1C5748CE00BB66C2 /* KBTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBTitleView.h; sourceTree = "<group>"; };
+		0052508B1C5748CE00BB66C2 /* KBTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBTitleView.m; sourceTree = "<group>"; };
+		0052508C1C5748CE00BB66C2 /* KBViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBViews.h; sourceTree = "<group>"; };
+		0052508D1C5748CE00BB66C2 /* KBViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBViews.m; sourceTree = "<group>"; };
+		0052508E1C5748CE00BB66C2 /* KBWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBWebView.h; sourceTree = "<group>"; };
+		0052508F1C5748CE00BB66C2 /* KBWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBWebView.m; sourceTree = "<group>"; };
+		005250901C5748CE00BB66C2 /* KBWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBWindow.h; sourceTree = "<group>"; };
+		005250911C5748CE00BB66C2 /* KBWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBWindow.m; sourceTree = "<group>"; };
+		005250921C5748CE00BB66C2 /* NSImageView+AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		005250931C5748CE00BB66C2 /* NSImageView+AFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		005250941C5748CE00BB66C2 /* NSSplitView+KBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSplitView+KBAdditions.h"; sourceTree = "<group>"; };
+		005250951C5748CE00BB66C2 /* NSSplitView+KBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSplitView+KBAdditions.m"; sourceTree = "<group>"; };
+		005250961C5748CE00BB66C2 /* NSView+KBView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSView+KBView.h"; sourceTree = "<group>"; };
+		005250971C5748CE00BB66C2 /* NSView+KBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+KBView.m"; sourceTree = "<group>"; };
+		005250981C5748CE00BB66C2 /* TikppaDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TikppaDefines.h; sourceTree = "<group>"; };
+		005250991C5748CE00BB66C2 /* TikppaDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TikppaDefines.m; sourceTree = "<group>"; };
+		005250EC1C57497700BB66C2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		005250EE1C57499300BB66C2 /* Tikppa.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tikppa.podspec; sourceTree = "<group>"; };
+		3FA5F6866E4C1077F68389B8 /* Pods-Tikppa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tikppa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tikppa/Pods-Tikppa.release.xcconfig"; sourceTree = "<group>"; };
+		526CAF64506CEF5AA8813B2E /* libPods-Tikppa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tikppa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98227314495563F8DECF5223 /* Pods-Tikppa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tikppa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tikppa/Pods-Tikppa.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		005250391C57487A00BB66C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				909EA89548DDF9E9BE0222B1 /* libPods-Tikppa.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		005250331C57487A00BB66C2 = {
+			isa = PBXGroup;
+			children = (
+				005250EE1C57499300BB66C2 /* Tikppa.podspec */,
+				005250EC1C57497700BB66C2 /* Podfile */,
+				0052503F1C57487A00BB66C2 /* Tikppa */,
+				0052503E1C57487A00BB66C2 /* Products */,
+				CB3BE9D6D80AA81E6BF3BFD8 /* Pods */,
+				E29018A8A908BB51B5B290FF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0052503E1C57487A00BB66C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0052503D1C57487A00BB66C2 /* Tikppa.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0052503F1C57487A00BB66C2 /* Tikppa */ = {
+			isa = PBXGroup;
+			children = (
+				005250481C5748CE00BB66C2 /* KBActivity.h */,
+				005250491C5748CE00BB66C2 /* KBActivity.m */,
+				0052504A1C5748CE00BB66C2 /* KBActivityIndicatorView.h */,
+				0052504B1C5748CE00BB66C2 /* KBActivityIndicatorView.m */,
+				0052504C1C5748CE00BB66C2 /* KBAlert.h */,
+				0052504D1C5748CE00BB66C2 /* KBAlert.m */,
+				0052504E1C5748CE00BB66C2 /* KBAppearance.h */,
+				0052504F1C5748CE00BB66C2 /* KBAppearance.m */,
+				005250501C5748CE00BB66C2 /* KBBorder.h */,
+				005250511C5748CE00BB66C2 /* KBBorder.m */,
+				005250521C5748CE00BB66C2 /* KBBox.h */,
+				005250531C5748CE00BB66C2 /* KBBox.m */,
+				005250541C5748CE00BB66C2 /* KBButton.h */,
+				005250551C5748CE00BB66C2 /* KBButton.m */,
+				005250561C5748CE00BB66C2 /* KBButtonView.h */,
+				005250571C5748CE00BB66C2 /* KBButtonView.m */,
+				005250581C5748CE00BB66C2 /* KBCellDataSource.h */,
+				005250591C5748CE00BB66C2 /* KBCellDataSource.m */,
+				0052505A1C5748CE00BB66C2 /* KBColor.h */,
+				0052505B1C5748CE00BB66C2 /* KBColor.m */,
+				0052505C1C5748CE00BB66C2 /* KBFontIcon.h */,
+				0052505D1C5748CE00BB66C2 /* KBFontIcon.m */,
+				0052505E1C5748CE00BB66C2 /* KBHoverView.h */,
+				0052505F1C5748CE00BB66C2 /* KBHoverView.m */,
+				005250601C5748CE00BB66C2 /* KBIcons.h */,
+				005250611C5748CE00BB66C2 /* KBIcons.m */,
+				005250621C5748CE00BB66C2 /* KBImage.h */,
+				005250631C5748CE00BB66C2 /* KBImage.m */,
+				005250641C5748CE00BB66C2 /* KBImageLoader.h */,
+				005250651C5748CE00BB66C2 /* KBImageLoader.m */,
+				005250661C5748CE00BB66C2 /* KBImageTextView.h */,
+				005250671C5748CE00BB66C2 /* KBImageTextView.m */,
+				005250681C5748CE00BB66C2 /* KBImageView.h */,
+				005250691C5748CE00BB66C2 /* KBImageView.m */,
+				0052506A1C5748CE00BB66C2 /* KBLabel.h */,
+				0052506B1C5748CE00BB66C2 /* KBLabel.m */,
+				0052506C1C5748CE00BB66C2 /* KBLabelRow.h */,
+				0052506D1C5748CE00BB66C2 /* KBLabelRow.m */,
+				0052506E1C5748CE00BB66C2 /* KBListView.h */,
+				0052506F1C5748CE00BB66C2 /* KBListView.m */,
+				005250701C5748CE00BB66C2 /* KBMenuBar.h */,
+				005250711C5748CE00BB66C2 /* KBMenuBar.m */,
+				005250721C5748CE00BB66C2 /* KBNavigationTitleView.h */,
+				005250731C5748CE00BB66C2 /* KBNavigationTitleView.m */,
+				005250741C5748CE00BB66C2 /* KBNavigationView.h */,
+				005250751C5748CE00BB66C2 /* KBNavigationView.m */,
+				005250761C5748CE00BB66C2 /* KBPopover.h */,
+				005250771C5748CE00BB66C2 /* KBPopover.m */,
+				005250781C5748CE00BB66C2 /* KBProgressOverlayView.h */,
+				005250791C5748CE00BB66C2 /* KBProgressOverlayView.m */,
+				0052507A1C5748CE00BB66C2 /* KBScrollView.h */,
+				0052507B1C5748CE00BB66C2 /* KBScrollView.m */,
+				0052507C1C5748CE00BB66C2 /* KBSplitView.h */,
+				0052507D1C5748CE00BB66C2 /* KBSplitView.m */,
+				0052507E1C5748CE00BB66C2 /* KBTableRowView.h */,
+				0052507F1C5748CE00BB66C2 /* KBTableRowView.m */,
+				005250801C5748CE00BB66C2 /* KBTableSelection.h */,
+				005250811C5748CE00BB66C2 /* KBTableSelection.m */,
+				005250821C5748CE00BB66C2 /* KBTableView.h */,
+				005250831C5748CE00BB66C2 /* KBTableView.m */,
+				005250841C5748CE00BB66C2 /* KBText.h */,
+				005250851C5748CE00BB66C2 /* KBText.m */,
+				005250861C5748CE00BB66C2 /* KBTextField.h */,
+				005250871C5748CE00BB66C2 /* KBTextField.m */,
+				005250881C5748CE00BB66C2 /* KBTextView.h */,
+				005250891C5748CE00BB66C2 /* KBTextView.m */,
+				0052508A1C5748CE00BB66C2 /* KBTitleView.h */,
+				0052508B1C5748CE00BB66C2 /* KBTitleView.m */,
+				0052508C1C5748CE00BB66C2 /* KBViews.h */,
+				0052508D1C5748CE00BB66C2 /* KBViews.m */,
+				0052508E1C5748CE00BB66C2 /* KBWebView.h */,
+				0052508F1C5748CE00BB66C2 /* KBWebView.m */,
+				005250901C5748CE00BB66C2 /* KBWindow.h */,
+				005250911C5748CE00BB66C2 /* KBWindow.m */,
+				005250921C5748CE00BB66C2 /* NSImageView+AFNetworking.h */,
+				005250931C5748CE00BB66C2 /* NSImageView+AFNetworking.m */,
+				005250941C5748CE00BB66C2 /* NSSplitView+KBAdditions.h */,
+				005250951C5748CE00BB66C2 /* NSSplitView+KBAdditions.m */,
+				005250961C5748CE00BB66C2 /* NSView+KBView.h */,
+				005250971C5748CE00BB66C2 /* NSView+KBView.m */,
+				005250981C5748CE00BB66C2 /* TikppaDefines.h */,
+				005250991C5748CE00BB66C2 /* TikppaDefines.m */,
+				005250401C57487A00BB66C2 /* Tikppa.h */,
+				005250421C57487A00BB66C2 /* Info.plist */,
+			);
+			path = Tikppa;
+			sourceTree = "<group>";
+		};
+		CB3BE9D6D80AA81E6BF3BFD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98227314495563F8DECF5223 /* Pods-Tikppa.debug.xcconfig */,
+				3FA5F6866E4C1077F68389B8 /* Pods-Tikppa.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E29018A8A908BB51B5B290FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				526CAF64506CEF5AA8813B2E /* libPods-Tikppa.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0052503A1C57487A00BB66C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005250CA1C5748CE00BB66C2 /* KBProgressOverlayView.h in Headers */,
+				005250C61C5748CE00BB66C2 /* KBNavigationView.h in Headers */,
+				005250C81C5748CE00BB66C2 /* KBPopover.h in Headers */,
+				005250E81C5748CE00BB66C2 /* NSView+KBView.h in Headers */,
+				005250BA1C5748CE00BB66C2 /* KBImageView.h in Headers */,
+				0052509E1C5748CE00BB66C2 /* KBAlert.h in Headers */,
+				005250DA1C5748CE00BB66C2 /* KBTextView.h in Headers */,
+				005250D41C5748CE00BB66C2 /* KBTableView.h in Headers */,
+				005250A61C5748CE00BB66C2 /* KBButton.h in Headers */,
+				005250AA1C5748CE00BB66C2 /* KBCellDataSource.h in Headers */,
+				005250B01C5748CE00BB66C2 /* KBHoverView.h in Headers */,
+				005250A81C5748CE00BB66C2 /* KBButtonView.h in Headers */,
+				005250A21C5748CE00BB66C2 /* KBBorder.h in Headers */,
+				005250B81C5748CE00BB66C2 /* KBImageTextView.h in Headers */,
+				005250C01C5748CE00BB66C2 /* KBListView.h in Headers */,
+				005250B21C5748CE00BB66C2 /* KBIcons.h in Headers */,
+				005250EA1C5748CE00BB66C2 /* TikppaDefines.h in Headers */,
+				005250C21C5748CE00BB66C2 /* KBMenuBar.h in Headers */,
+				005250E01C5748CE00BB66C2 /* KBWebView.h in Headers */,
+				005250E21C5748CE00BB66C2 /* KBWindow.h in Headers */,
+				0052509A1C5748CE00BB66C2 /* KBActivity.h in Headers */,
+				005250D81C5748CE00BB66C2 /* KBTextField.h in Headers */,
+				005250DE1C5748CE00BB66C2 /* KBViews.h in Headers */,
+				005250D61C5748CE00BB66C2 /* KBText.h in Headers */,
+				005250E61C5748CE00BB66C2 /* NSSplitView+KBAdditions.h in Headers */,
+				005250411C57487A00BB66C2 /* Tikppa.h in Headers */,
+				005250B41C5748CE00BB66C2 /* KBImage.h in Headers */,
+				0052509C1C5748CE00BB66C2 /* KBActivityIndicatorView.h in Headers */,
+				005250BC1C5748CE00BB66C2 /* KBLabel.h in Headers */,
+				005250AC1C5748CE00BB66C2 /* KBColor.h in Headers */,
+				005250C41C5748CE00BB66C2 /* KBNavigationTitleView.h in Headers */,
+				005250BE1C5748CE00BB66C2 /* KBLabelRow.h in Headers */,
+				005250CC1C5748CE00BB66C2 /* KBScrollView.h in Headers */,
+				005250D01C5748CE00BB66C2 /* KBTableRowView.h in Headers */,
+				005250CE1C5748CE00BB66C2 /* KBSplitView.h in Headers */,
+				005250B61C5748CE00BB66C2 /* KBImageLoader.h in Headers */,
+				005250A01C5748CE00BB66C2 /* KBAppearance.h in Headers */,
+				005250A41C5748CE00BB66C2 /* KBBox.h in Headers */,
+				005250DC1C5748CE00BB66C2 /* KBTitleView.h in Headers */,
+				005250AE1C5748CE00BB66C2 /* KBFontIcon.h in Headers */,
+				005250D21C5748CE00BB66C2 /* KBTableSelection.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0052503C1C57487A00BB66C2 /* Tikppa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 005250451C57487A00BB66C2 /* Build configuration list for PBXNativeTarget "Tikppa" */;
+			buildPhases = (
+				1CBF9D681997A9244C42DAF0 /* Check Pods Manifest.lock */,
+				005250381C57487A00BB66C2 /* Sources */,
+				005250391C57487A00BB66C2 /* Frameworks */,
+				0052503A1C57487A00BB66C2 /* Headers */,
+				0052503B1C57487A00BB66C2 /* Resources */,
+				E803890F9B045B2DDDA9C781 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tikppa;
+			productName = Tikppa;
+			productReference = 0052503D1C57487A00BB66C2 /* Tikppa.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		005250341C57487A00BB66C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Gabriel Handford";
+				TargetAttributes = {
+					0052503C1C57487A00BB66C2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 005250371C57487A00BB66C2 /* Build configuration list for PBXProject "Tikppa" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 005250331C57487A00BB66C2;
+			productRefGroup = 0052503E1C57487A00BB66C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0052503C1C57487A00BB66C2 /* Tikppa */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0052503B1C57487A00BB66C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CBF9D681997A9244C42DAF0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E803890F9B045B2DDDA9C781 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tikppa/Pods-Tikppa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		005250381C57487A00BB66C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005250E91C5748CE00BB66C2 /* NSView+KBView.m in Sources */,
+				005250E11C5748CE00BB66C2 /* KBWebView.m in Sources */,
+				005250BB1C5748CE00BB66C2 /* KBImageView.m in Sources */,
+				005250CB1C5748CE00BB66C2 /* KBProgressOverlayView.m in Sources */,
+				005250DD1C5748CE00BB66C2 /* KBTitleView.m in Sources */,
+				005250B11C5748CE00BB66C2 /* KBHoverView.m in Sources */,
+				005250AF1C5748CE00BB66C2 /* KBFontIcon.m in Sources */,
+				005250DB1C5748CE00BB66C2 /* KBTextView.m in Sources */,
+				005250C31C5748CE00BB66C2 /* KBMenuBar.m in Sources */,
+				005250AD1C5748CE00BB66C2 /* KBColor.m in Sources */,
+				005250DF1C5748CE00BB66C2 /* KBViews.m in Sources */,
+				005250C71C5748CE00BB66C2 /* KBNavigationView.m in Sources */,
+				005250CF1C5748CE00BB66C2 /* KBSplitView.m in Sources */,
+				005250E71C5748CE00BB66C2 /* NSSplitView+KBAdditions.m in Sources */,
+				005250C91C5748CE00BB66C2 /* KBPopover.m in Sources */,
+				005250E31C5748CE00BB66C2 /* KBWindow.m in Sources */,
+				005250B71C5748CE00BB66C2 /* KBImageLoader.m in Sources */,
+				005250D71C5748CE00BB66C2 /* KBText.m in Sources */,
+				005250A71C5748CE00BB66C2 /* KBButton.m in Sources */,
+				005250D31C5748CE00BB66C2 /* KBTableSelection.m in Sources */,
+				005250A51C5748CE00BB66C2 /* KBBox.m in Sources */,
+				005250C11C5748CE00BB66C2 /* KBListView.m in Sources */,
+				005250A31C5748CE00BB66C2 /* KBBorder.m in Sources */,
+				0052509F1C5748CE00BB66C2 /* KBAlert.m in Sources */,
+				005250D11C5748CE00BB66C2 /* KBTableRowView.m in Sources */,
+				005250BD1C5748CE00BB66C2 /* KBLabel.m in Sources */,
+				005250C51C5748CE00BB66C2 /* KBNavigationTitleView.m in Sources */,
+				005250AB1C5748CE00BB66C2 /* KBCellDataSource.m in Sources */,
+				005250B31C5748CE00BB66C2 /* KBIcons.m in Sources */,
+				0052509D1C5748CE00BB66C2 /* KBActivityIndicatorView.m in Sources */,
+				005250D51C5748CE00BB66C2 /* KBTableView.m in Sources */,
+				005250A91C5748CE00BB66C2 /* KBButtonView.m in Sources */,
+				005250B91C5748CE00BB66C2 /* KBImageTextView.m in Sources */,
+				005250A11C5748CE00BB66C2 /* KBAppearance.m in Sources */,
+				005250EB1C5748CE00BB66C2 /* TikppaDefines.m in Sources */,
+				005250B51C5748CE00BB66C2 /* KBImage.m in Sources */,
+				005250BF1C5748CE00BB66C2 /* KBLabelRow.m in Sources */,
+				005250CD1C5748CE00BB66C2 /* KBScrollView.m in Sources */,
+				005250D91C5748CE00BB66C2 /* KBTextField.m in Sources */,
+				0052509B1C5748CE00BB66C2 /* KBActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		005250431C57487A00BB66C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		005250441C57487A00BB66C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		005250461C57487A00BB66C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98227314495563F8DECF5223 /* Pods-Tikppa.debug.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Tikppa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.rel.Tikppa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		005250471C57487A00BB66C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FA5F6866E4C1077F68389B8 /* Pods-Tikppa.release.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Tikppa/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = me.rel.Tikppa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		005250371C57487A00BB66C2 /* Build configuration list for PBXProject "Tikppa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005250431C57487A00BB66C2 /* Debug */,
+				005250441C57487A00BB66C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		005250451C57487A00BB66C2 /* Build configuration list for PBXNativeTarget "Tikppa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				005250461C57487A00BB66C2 /* Debug */,
+				005250471C57487A00BB66C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 005250341C57487A00BB66C2 /* Project object */;
+}

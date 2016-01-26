@@ -8,9 +8,6 @@
 
 #import "KBFontIcon.h"
 
-#import <CocoaLumberjack/CocoaLumberjack.h>
-#import <ObjectiveSugar/ObjectiveSugar.h>
-
 @implementation KBFontIcon
 
 + (NSFont *)fontWithSize:(CGFloat)size type:(KBFontIconType)type {
@@ -37,7 +34,7 @@
   NSMutableAttributedString *str = [[NSMutableAttributedString alloc] init];
   [str appendAttributedString:iconStr];
   if (text) {
-    [str appendAttributedString:[KBAppearance.currentAppearance attributedString:NSStringWithFormat(@" %@", text) style:style options:options alignment:alignment lineBreakMode:lineBreakMode]];
+    [str appendAttributedString:[KBAppearance.currentAppearance attributedString:[NSString stringWithFormat:@" %@", text] style:style options:options alignment:alignment lineBreakMode:lineBreakMode]];
   }
   return str;
 }

@@ -18,9 +18,6 @@
 #import "KBActivityIndicatorView.h"
 #import "KBAppearance.h"
 
-#import <CocoaLumberjack/CocoaLumberjack.h>
-static const int ddLogLevel = DDLogLevelDebug;
-
 @interface KBActivityIndicatorView ()
 @property (nonatomic, weak) CAShapeLayer *shapeLayer;
 @end

@@ -8,7 +8,6 @@
 
 #import "KBImageView.h"
 
-#import <GHKit/GHKit.h>
 #import "KBImage.h"
 #import "KBAppearance.h"
 
@@ -78,7 +77,7 @@
   }
   if (!imageNamed) return;
 
-  GHWeakSelf gself = self;
+  __weak KBImageView *gself = self;
   dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
     NSImage *image = [NSImage imageNamed:imageNamed];
     dispatch_async(dispatch_get_main_queue(), ^{
