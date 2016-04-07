@@ -88,6 +88,12 @@
 		005250E91C5748CE00BB66C2 /* NSView+KBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250971C5748CE00BB66C2 /* NSView+KBView.m */; };
 		005250EA1C5748CE00BB66C2 /* TikppaDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250981C5748CE00BB66C2 /* TikppaDefines.h */; };
 		005250EB1C5748CE00BB66C2 /* TikppaDefines.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250991C5748CE00BB66C2 /* TikppaDefines.m */; };
+		00FDEE441CB6D82D00B267E1 /* NSImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 005250921C5748CE00BB66C2 /* NSImageView+AFNetworking.h */; };
+		00FDEE451CB6D82F00B267E1 /* NSImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 005250931C5748CE00BB66C2 /* NSImageView+AFNetworking.m */; };
+		00FDEE481CB6DADB00B267E1 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FDEE461CB6DADB00B267E1 /* AFImageDownloader.h */; };
+		00FDEE491CB6DADB00B267E1 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FDEE471CB6DADB00B267E1 /* AFImageDownloader.m */; };
+		00FDEE4C1CB6DB3400B267E1 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FDEE4A1CB6DB3400B267E1 /* AFAutoPurgingImageCache.h */; };
+		00FDEE4D1CB6DB3400B267E1 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 00FDEE4B1CB6DB3400B267E1 /* AFAutoPurgingImageCache.m */; };
 		909EA89548DDF9E9BE0222B1 /* libPods-Tikppa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 526CAF64506CEF5AA8813B2E /* libPods-Tikppa.a */; };
 /* End PBXBuildFile section */
 
@@ -177,8 +183,12 @@
 		005250971C5748CE00BB66C2 /* NSView+KBView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSView+KBView.m"; sourceTree = "<group>"; };
 		005250981C5748CE00BB66C2 /* TikppaDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TikppaDefines.h; sourceTree = "<group>"; };
 		005250991C5748CE00BB66C2 /* TikppaDefines.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TikppaDefines.m; sourceTree = "<group>"; };
-		005250EC1C57497700BB66C2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		005250EC1C57497700BB66C2 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		005250EE1C57499300BB66C2 /* Tikppa.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tikppa.podspec; sourceTree = "<group>"; };
+		00FDEE461CB6DADB00B267E1 /* AFImageDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFImageDownloader.h; sourceTree = "<group>"; };
+		00FDEE471CB6DADB00B267E1 /* AFImageDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFImageDownloader.m; sourceTree = "<group>"; };
+		00FDEE4A1CB6DB3400B267E1 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAutoPurgingImageCache.h; sourceTree = "<group>"; };
+		00FDEE4B1CB6DB3400B267E1 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAutoPurgingImageCache.m; sourceTree = "<group>"; };
 		3FA5F6866E4C1077F68389B8 /* Pods-Tikppa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tikppa.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tikppa/Pods-Tikppa.release.xcconfig"; sourceTree = "<group>"; };
 		526CAF64506CEF5AA8813B2E /* libPods-Tikppa.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tikppa.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		98227314495563F8DECF5223 /* Pods-Tikppa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tikppa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tikppa/Pods-Tikppa.debug.xcconfig"; sourceTree = "<group>"; };
@@ -295,6 +305,10 @@
 				005250911C5748CE00BB66C2 /* KBWindow.m */,
 				005250921C5748CE00BB66C2 /* NSImageView+AFNetworking.h */,
 				005250931C5748CE00BB66C2 /* NSImageView+AFNetworking.m */,
+				00FDEE461CB6DADB00B267E1 /* AFImageDownloader.h */,
+				00FDEE471CB6DADB00B267E1 /* AFImageDownloader.m */,
+				00FDEE4A1CB6DB3400B267E1 /* AFAutoPurgingImageCache.h */,
+				00FDEE4B1CB6DB3400B267E1 /* AFAutoPurgingImageCache.m */,
 				005250941C5748CE00BB66C2 /* NSSplitView+KBAdditions.h */,
 				005250951C5748CE00BB66C2 /* NSSplitView+KBAdditions.m */,
 				005250961C5748CE00BB66C2 /* NSView+KBView.h */,
@@ -341,6 +355,7 @@
 				005250D41C5748CE00BB66C2 /* KBTableView.h in Headers */,
 				005250A61C5748CE00BB66C2 /* KBButton.h in Headers */,
 				005250AA1C5748CE00BB66C2 /* KBCellDataSource.h in Headers */,
+				00FDEE4C1CB6DB3400B267E1 /* AFAutoPurgingImageCache.h in Headers */,
 				005250B01C5748CE00BB66C2 /* KBHoverView.h in Headers */,
 				005250A81C5748CE00BB66C2 /* KBButtonView.h in Headers */,
 				005250A21C5748CE00BB66C2 /* KBBorder.h in Headers */,
@@ -358,8 +373,10 @@
 				005250E61C5748CE00BB66C2 /* NSSplitView+KBAdditions.h in Headers */,
 				005250411C57487A00BB66C2 /* Tikppa.h in Headers */,
 				005250B41C5748CE00BB66C2 /* KBImage.h in Headers */,
+				00FDEE441CB6D82D00B267E1 /* NSImageView+AFNetworking.h in Headers */,
 				0052509C1C5748CE00BB66C2 /* KBActivityIndicatorView.h in Headers */,
 				005250BC1C5748CE00BB66C2 /* KBLabel.h in Headers */,
+				00FDEE481CB6DADB00B267E1 /* AFImageDownloader.h in Headers */,
 				005250AC1C5748CE00BB66C2 /* KBColor.h in Headers */,
 				005250C41C5748CE00BB66C2 /* KBNavigationTitleView.h in Headers */,
 				005250BE1C5748CE00BB66C2 /* KBLabelRow.h in Headers */,
@@ -382,12 +399,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 005250451C57487A00BB66C2 /* Build configuration list for PBXNativeTarget "Tikppa" */;
 			buildPhases = (
-				1CBF9D681997A9244C42DAF0 /* Check Pods Manifest.lock */,
+				1CBF9D681997A9244C42DAF0 /* 📦 Check Pods Manifest.lock */,
 				005250381C57487A00BB66C2 /* Sources */,
 				005250391C57487A00BB66C2 /* Frameworks */,
 				0052503A1C57487A00BB66C2 /* Headers */,
 				0052503B1C57487A00BB66C2 /* Resources */,
-				E803890F9B045B2DDDA9C781 /* Copy Pods Resources */,
+				E803890F9B045B2DDDA9C781 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -440,14 +457,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1CBF9D681997A9244C42DAF0 /* Check Pods Manifest.lock */ = {
+		1CBF9D681997A9244C42DAF0 /* 📦 Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "📦 Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -455,14 +472,14 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		E803890F9B045B2DDDA9C781 /* Copy Pods Resources */ = {
+		E803890F9B045B2DDDA9C781 /* 📦 Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "📦 Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -488,8 +505,10 @@
 				005250C31C5748CE00BB66C2 /* KBMenuBar.m in Sources */,
 				005250AD1C5748CE00BB66C2 /* KBColor.m in Sources */,
 				005250DF1C5748CE00BB66C2 /* KBViews.m in Sources */,
+				00FDEE491CB6DADB00B267E1 /* AFImageDownloader.m in Sources */,
 				005250C71C5748CE00BB66C2 /* KBNavigationView.m in Sources */,
 				005250CF1C5748CE00BB66C2 /* KBSplitView.m in Sources */,
+				00FDEE451CB6D82F00B267E1 /* NSImageView+AFNetworking.m in Sources */,
 				005250E71C5748CE00BB66C2 /* NSSplitView+KBAdditions.m in Sources */,
 				005250C91C5748CE00BB66C2 /* KBPopover.m in Sources */,
 				005250E31C5748CE00BB66C2 /* KBWindow.m in Sources */,
@@ -513,6 +532,7 @@
 				005250A11C5748CE00BB66C2 /* KBAppearance.m in Sources */,
 				005250EB1C5748CE00BB66C2 /* TikppaDefines.m in Sources */,
 				005250B51C5748CE00BB66C2 /* KBImage.m in Sources */,
+				00FDEE4D1CB6DB3400B267E1 /* AFAutoPurgingImageCache.m in Sources */,
 				005250BF1C5748CE00BB66C2 /* KBLabelRow.m in Sources */,
 				005250CD1C5748CE00BB66C2 /* KBScrollView.m in Sources */,
 				005250D91C5748CE00BB66C2 /* KBTextField.m in Sources */,
