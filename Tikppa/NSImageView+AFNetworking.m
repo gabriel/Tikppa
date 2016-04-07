@@ -22,9 +22,6 @@
 #import "NSImageView+AFNetworking.h"
 
 #import <objc/runtime.h>
-#import <AppKit/AppKit.h>
-
-#import "AFImageDownloader.h"
 
 @interface NSImageView (_AFNetworking)
 @property (readwrite, nonatomic, strong, setter = af_setActiveImageDownloadReceipt:) AFImageDownloadReceipt *af_activeImageDownloadReceipt;

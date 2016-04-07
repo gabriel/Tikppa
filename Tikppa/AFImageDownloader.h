@@ -21,8 +21,10 @@
 
 
 #import <Foundation/Foundation.h>
+#import <AppKit/AppKit.h>
+#import <AFNetworking/AFNetworking.h>
+
 #import "AFAutoPurgingImageCache.h"
-#import "AFHTTPSessionManager.h"
 
 typedef NS_ENUM(NSInteger, AFImageDownloadPrioritization) {
   AFImageDownloadPrioritizationFIFO,

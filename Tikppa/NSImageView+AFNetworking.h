@@ -23,7 +23,7 @@
 
 #import <AppKit/AppKit.h>
 
-@class AFImageDownloader;
+#import "AFImageDownloader.h"
 
 /**
  This category adds methods to the `NSImageView` class. The methods in this category provide support for loading remote images asynchronously from a URL.

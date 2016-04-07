@@ -52,3 +52,6 @@ FOUNDATION_EXPORT const unsigned char TikppaVersionString[];
 #import <Tikppa/KBImage.h>
 #import <Tikppa/KBFontIcon.h>
 #import <Tikppa/KBWebView.h>
+
+#import <Tikppa/NSImageView+AFNetworking.h>
+#import <Tikppa/AFImageDownloader.h>

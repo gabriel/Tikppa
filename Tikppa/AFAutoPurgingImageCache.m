@@ -20,7 +20,6 @@
 // THE SOFTWARE.
 
 #import "AFAutoPurgingImageCache.h"
-#import <AppKit/AppKit.h>
 
 @interface AFCachedImage : NSObject
 

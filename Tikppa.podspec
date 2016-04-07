@@ -17,8 +17,7 @@ Pod::Spec.new do |s|
   s.dependency "CocoaLumberjack"
   s.dependency "AFNetworking"
 
-  s.osx.platform = :osx, "10.8"
-  s.osx.deployment_target = "10.8"
+  s.platform = :osx, "10.8"
   s.osx.source_files = "Tikppa/**/*.{h,m}"
 
 end
