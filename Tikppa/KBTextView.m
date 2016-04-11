@@ -9,8 +9,6 @@
 #import "KBTextView.h"
 
 #import "KBAppearance.h"
-#import "KBBorder.h"
-#import "KBLabel.h"
 
 @interface KBNSTextView : NSTextView
 @property (weak) KBTextView *parent;
