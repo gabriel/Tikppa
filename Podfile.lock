@@ -12,18 +12,18 @@ PODS:
   - AFNetworking/Reachability (3.1.0)
   - AFNetworking/Security (3.1.0)
   - AFNetworking/Serialization (3.1.0)
-  - CocoaLumberjack (2.2.0):
-    - CocoaLumberjack/Default (= 2.2.0)
-    - CocoaLumberjack/Extensions (= 2.2.0)
-  - CocoaLumberjack/Core (2.2.0)
-  - CocoaLumberjack/Default (2.2.0):
+  - CocoaLumberjack (2.4.0):
+    - CocoaLumberjack/Default (= 2.4.0)
+    - CocoaLumberjack/Extensions (= 2.4.0)
+  - CocoaLumberjack/Core (2.4.0)
+  - CocoaLumberjack/Default (2.4.0):
     - CocoaLumberjack/Core
-  - CocoaLumberjack/Extensions (2.2.0):
+  - CocoaLumberjack/Extensions (2.4.0):
     - CocoaLumberjack/Default
   - GHKit (2.0.3)
   - ObjectiveSugar (1.1.0)
   - Slash (0.1.4)
-  - YOLayout (0.2.12)
+  - YOLayout (0.2.13)
 
 DEPENDENCIES:
   - AFNetworking
@@ -35,12 +35,12 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  CocoaLumberjack: aa9dcab71bdf9eaf2a63bbd9ddc87863efe45457
   GHKit: 2a20b51df9ce8f4355b2af2821805d369d610546
   ObjectiveSugar: a6a25f23d657c19df0a0b972466d5b5ca9f5295c
   Slash: 7184f2a98e13ad62303037db3a706c88e98b197e
-  YOLayout: 3f5b3ac64f9018f1e63a19223dbb8382c37d58cb
+  YOLayout: 6728d890bab9b9e4962efd554cba16d677b30b0f
 
 PODFILE CHECKSUM: f257028837ad1b77661d9f498cc8c1c06a966bff
 
-COCOAPODS: 1.0.0.beta.6
+COCOAPODS: 1.1.0.rc.2

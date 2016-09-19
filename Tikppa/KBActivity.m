@@ -58,7 +58,7 @@
   if ([sender respondsToSelector:@selector(navigation)] && [sender navigation]) {
     return [[sender navigation] setError:error sender:sender completion:completion];
   } else {
-    return [[NSApp delegate] setError:error sender:sender completion:completion];
+    return [((id)[NSApp delegate]) setError:error sender:sender completion:completion];
   }
 }
 
