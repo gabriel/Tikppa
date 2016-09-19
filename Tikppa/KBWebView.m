@@ -8,7 +8,7 @@
 
 #import "KBWebView.h"
 
-#import <YOLayout+PrefabLayouts.h>
+#import <YOLayout/YOLayout+PrefabLayouts.h>
 
 @interface KBWebView ()
 @property WKWebView *webView;
