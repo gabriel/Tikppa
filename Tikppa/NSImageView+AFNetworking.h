@@ -25,6 +25,8 @@
 
 #import "AFImageDownloader.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 /**
  This category adds methods to the `NSImageView` class. The methods in this category provide support for loading remote images asynchronously from a URL.
  */
@@ -88,8 +90,8 @@
  */
 - (void)setImageWithURLRequest:(NSURLRequest *)urlRequest
               placeholderImage:(nullable NSImage *)placeholderImage
-                       success:(nullable void (^)(NSURLRequest *request, NSHTTPURLResponse * _Nullable response, NSImage *image))success
-                       failure:(nullable void (^)(NSURLRequest *request, NSHTTPURLResponse * _Nullable response, NSError *error))failure;
+                       success:(nullable void (^)(NSURLRequest * _Nullable request, NSHTTPURLResponse * _Nullable response, NSImage * _Nullable image))success
+                       failure:(nullable void (^)(NSURLRequest * _Nullable request, NSHTTPURLResponse * _Nullable response, NSError * _Nullable error))failure;
 
 /**
  Cancels any executing image operation for the receiver, if one exists.
@@ -97,3 +99,5 @@
 - (void)cancelImageDownloadTask;
 
 @end
+
+NS_ASSUME_NONNULL_END

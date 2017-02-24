@@ -26,6 +26,8 @@
 
 #import "AFAutoPurgingImageCache.h"
 
+NS_ASSUME_NONNULL_BEGIN
+
 typedef NS_ENUM(NSInteger, AFImageDownloadPrioritization) {
   AFImageDownloadPrioritizationFIFO,
   AFImageDownloadPrioritizationLIFO
@@ -148,3 +150,5 @@ typedef NS_ENUM(NSInteger, AFImageDownloadPrioritization) {
 - (void)cancelTaskForImageDownloadReceipt:(AFImageDownloadReceipt *)imageDownloadReceipt;
 
 @end
+
+NS_ASSUME_NONNULL_END

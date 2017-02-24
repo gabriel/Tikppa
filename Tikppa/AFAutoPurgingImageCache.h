@@ -33,7 +33,7 @@
  @param image The image to cache.
  @param identifier The unique identifier for the image in the cache.
  */
-- (void)addImage:(NSImage *)image withIdentifier:(NSString *)identifier;
+- (void)addImage:(nullable NSImage *)image withIdentifier:(nullable NSString *)identifier;
 
 /**
  Removes the image from the cache matching the given identifier.
@@ -42,7 +42,7 @@
 
  @return A BOOL indicating whether or not the image was removed from the cache.
  */
-- (BOOL)removeImageWithIdentifier:(NSString *)identifier;
+- (BOOL)removeImageWithIdentifier:(nullable NSString *)identifier;
 
 /**
  Removes all images from the cache.
@@ -58,7 +58,7 @@
 
  @return An image for the matching identifier, or nil.
  */
-- (nullable NSImage *)imageWithIdentifier:(NSString *)identifier;
+- (nullable NSImage *)imageWithIdentifier:(nullable NSString *)identifier;
 @end
 
 
@@ -74,7 +74,7 @@
  @param request The unique URL request identifing the image asset.
  @param identifier The additional identifier to apply to the URL request to identify the image.
  */
-- (void)addImage:(NSImage *)image forRequest:(NSURLRequest *)request withAdditionalIdentifier:(nullable NSString *)identifier;
+- (void)addImage:(nullable NSImage *)image forRequest:(nullable NSURLRequest *)request withAdditionalIdentifier:(nullable NSString *)identifier;
 
 /**
  Removes the image from the cache using an identifier created from the request and additional identifier.
@@ -84,7 +84,7 @@
 
  @return A BOOL indicating whether or not all images were removed from the cache.
  */
-- (BOOL)removeImageforRequest:(NSURLRequest *)request withAdditionalIdentifier:(nullable NSString *)identifier;
+- (BOOL)removeImageforRequest:(nullable NSURLRequest *)request withAdditionalIdentifier:(nullable NSString *)identifier;
 
 /**
  Returns the image from the cache associated with an identifier created from the request and additional identifier.
@@ -94,7 +94,7 @@
 
  @return An image for the matching request and identifier, or nil.
  */
-- (nullable NSImage *)imageforRequest:(NSURLRequest *)request withAdditionalIdentifier:(nullable NSString *)identifier;
+- (nullable NSImage *)imageforRequest:(nullable NSURLRequest *)request withAdditionalIdentifier:(nullable NSString *)identifier;
 
 @end
 
@@ -123,7 +123,7 @@
 
  @return The new `AutoPurgingImageCache` instance.
  */
-- (instancetype)init;
+- (nonnull instancetype)init;
 
 /**
  Initialies the `AutoPurgingImageCache` instance with the given memory capacity and preferred memory usage
@@ -134,6 +134,6 @@
 
  @return The new `AutoPurgingImageCache` instance.
  */
-- (instancetype)initWithMemoryCapacity:(UInt64)memoryCapacity preferredMemoryCapacity:(UInt64)preferredMemoryCapacity;
+- (nonnull instancetype)initWithMemoryCapacity:(UInt64)memoryCapacity preferredMemoryCapacity:(UInt64)preferredMemoryCapacity;
 
 @end
